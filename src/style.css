@@ -185,23 +185,20 @@ body {
     left: 98px;
 }
 
-.mouth{
-    position: fixed;
-}
-
 .mouth .down {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 200px;
-    top: 8px;
+    top: -50px;
     overflow: hidden;
+    border: 1px solid red;
 }
 
 .mouth .down .yuan1 {
     border: 2px solid rgb(0, 0, 0);
     background: #9b000a;
     height: 280px;
-    position: absolute;
+    position: relative;
     top: -90px;
     left: 50%;
     transform: translate(-50%, 0);
