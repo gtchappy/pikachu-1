@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     position:relative;
     overflow-y:hidden;
+    border: 1px solid red;
 }
 
 .skin {
