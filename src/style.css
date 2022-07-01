@@ -18,7 +18,6 @@ body {
     min-height: 100vh;
     position:relative;
     overflow-y:hidden;
-    border: 1px solid red;
 }
 
 .skin {
@@ -88,7 +87,6 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     position: absolute;
-    /* border: 1px solid blue; */
     top: 6px;
     background-color: #ffe600;
     z-index: 1;
@@ -192,7 +190,7 @@ body {
     height: 200px;
     top: -50px;
     overflow: hidden;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .mouth .down .yuan1 {
@@ -206,7 +204,7 @@ body {
     border-radius: 0 0 50% 50% / 0 0 100% 90%;
     width: 165px;
     z-index: -3;
-    overflow: inherit;
+    overflow: hidden;
 }
 
 .mouth .down .yuan1 .yuan2 {
@@ -214,10 +212,11 @@ body {
     height: 280px;
     transform: translate(-50%, 0);
     border-radius: 50% 50% 50% 0 / 23% 24% 0 0;
-    position: absolute;
+    position: relative;
     background: #ff485f;
     top: 115px;
     left: 50%;
+    border: 1px #40f318 solid;
 }
 
 
