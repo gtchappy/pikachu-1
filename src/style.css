@@ -16,6 +16,8 @@ before,after 默认的display 是 inline。
 body {
     background: #ffe600;
     min-height: 100vh;
+    position:relative;
+    overflow-y:hidden;
 }
 
 .skin {
